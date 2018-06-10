@@ -31,7 +31,7 @@ docker run -it --rm \
 Then use the env variable `QTUM_RPC` to specify the URL of your local qtumd RPC node:
 
 ```
-export QTUM_RPC=http://qtum:test@localhost:3889
+export QTUM_RPC=http://test:test@localhost:19432
 ```
 
 Now we are ready to run the DApp. Clone an example DApp to your local machine:
